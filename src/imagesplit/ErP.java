@@ -392,7 +392,7 @@ public class ErP extends javax.swing.JFrame {
 //            int scaleY = (int) (logo.getHeight() * 0.7);
 //            java.awt.Image logo1 = logo.getScaledInstance(scaleX, scaleY, java.awt.Image.SCALE_SMOOTH);
 
-                    String item_mod = itemNo.replace("/2", "").replace("/3", "").replace(".3", "").replace("/4", "").replace(".4", "").replace("/5", "").replace(".5", "");
+                    String item_mod = itemNo.replace("/2", "").replace(".2", "").replace("/3", "").replace(".3", "").replace("/4", "").replace(".4", "").replace("/5", "").replace(".5", "");
 
                     AttributedString word = new AttributedString(item_mod);
                     int item_l = item.length();
