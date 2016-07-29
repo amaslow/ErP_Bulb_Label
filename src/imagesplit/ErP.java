@@ -238,7 +238,7 @@ public class ErP extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     String mainfolder = "G:\\Share Company Wide\\Company Transfer\\ERP classificatie";
-    String productContent = "X:\\Smartares - Product Content\\PRODUCTS\\";
+    String productContent = "\\\\172.16.55.197\\design\\Smartwares - Product Content\\PRODUCTS\\";
 
     int rownr = 0;
     String itemNo = null;
