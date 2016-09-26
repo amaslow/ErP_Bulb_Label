@@ -237,7 +237,7 @@ public class ErP extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    String mainfolder = "G:\\Share Company Wide\\Company Transfer\\ERP classificatie";
+    String mainfolder = "\\\\file01\\SL-Data\\Share Company Wide\\Company Transfer\\ERP classificatie";
     String productContent = "\\\\172.16.55.197\\design\\Smartwares - Product Content\\PRODUCTS\\";
 
     int rownr = 0;
@@ -289,9 +289,9 @@ public class ErP extends javax.swing.JFrame {
         ean = ean1.getStringCellValue();
 
         XSSFCell wat1 = row.getCell(3); // get wattage
-        
+
         //wat = wat1.toString();
-        wat = String.valueOf((int) wat1.getNumericCellValue())+"  ";
+        wat = String.valueOf((int) wat1.getNumericCellValue()) + "  ";
         //int wat2 = (int) wat1.getNumericCellValue();
         //wat = wat.substring(0, wat.length() - 2);
 
